@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LInkedList/LInkedList.iml" filepath="$PROJECT_DIR$/LInkedList/LInkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode-.iml" filepath="$PROJECT_DIR$/.idea/LeetCode-.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
     </modules>
