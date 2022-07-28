@@ -1,4 +1,4 @@
-public class Linked_List_Cycle14 {
+public class Linked_List_Cycle141 {
     public boolean hasCycle(ListNode head) {
 //解法1  哈希表特性 遍历整个链表，将遍历到的加入set，如果遇到重复的则返回true。
         Set<ListNode> ls = new HashSet<>();
