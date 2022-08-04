@@ -2,10 +2,10 @@ import java.util.HashSet;
 
 public class Linked_List_Cycle_II142 {
     //解法1 hashset  与之前判断环一样，遍历整个链表并添加至hashset，当添加的元素在哈希表中已经contain了的话，返回当前node
-    public ListNode detectCycle(ListNode head){
+    public LinkedNode detectCycle(LinkedNode head){
         if(head==null) return null;
 
-        HashSet<ListNode> hs = new HashSet<ListNode>();
+        HashSet<LinkedNode> hs = new HashSet<LinkedNode>();
 
         while(head!=null&&head.next!=null){
             if(hs.contains(head)){
@@ -23,8 +23,8 @@ public class Linked_List_Cycle_II142 {
     //解法2 双指针
    //这部分代码与判断环形部分一样
     if(head==null) return null;
-     ListNode fast = head;
-    ListNode slow = head;
+     LinkedNode fast = head;
+    LinkedNode slow = head;
     while(fast!=null&&fast.next!=null){
         fast=fast.next.next;
         slow=slow.next;

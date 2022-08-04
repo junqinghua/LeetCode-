@@ -9,11 +9,11 @@ public class Add_Two_Numbers2 {
      * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public LinkedNode addTwoNumbers(LinkedNode l1, LinkedNode l2) {
         if (l1 == null && l2 == null) return null;
 
-        ListNode dummy = new ListNode(-1);
-        ListNode p = dummy;
+        LinkedNode dummy = new LinkedNode(-1);
+        LinkedNode p = dummy;
         //定义一个int sum用来储存l1+l2的值
         int sum = 0;
         //定义一个int carry用来记录是否需要进一位
@@ -37,14 +37,14 @@ public class Add_Two_Numbers2 {
                 carry = 0;
             }
 
-            dummy.next = new ListNode(sum);
+            dummy.next = new LinkedNode(sum);
             dummy = dummy.next;
             //将sum初始化为carry的值 1
             sum = carry;
         }
         //不能忘记最后的一个sum如果超过10，末尾自动添加一个1
         if (carry == 1) {
-            dummy.next = new ListNode(1);
+            dummy.next = new LinkedNode(1);
         }
 
 

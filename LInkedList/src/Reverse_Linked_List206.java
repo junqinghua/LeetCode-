@@ -9,11 +9,11 @@ public class Reverse_Linked_List206 {
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-        public ListNode reverseList(ListNode head) {
-            ListNode cur = head;
-            ListNode pre =null;
+        public LinkedNode reverseList(LinkedNode head) {
+            LinkedNode cur = head;
+            LinkedNode pre =null;
             while(cur!=null){
-                ListNode temp = cur.next;
+                LinkedNode temp = cur.next;
                 cur.next=pre;
                 pre=cur;
                 cur=temp;

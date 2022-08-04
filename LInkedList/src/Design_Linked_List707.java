@@ -1,11 +1,11 @@
 class ListNode {
     int val;
-    ListNode next;
+    LinkedNode next;
     ListNode(){}
     ListNode(int val){
         this.val=val;
     }
-    ListNode(int val, ListNode next){
+    ListNode(int val, LinkedNode next){
         this.val=val;
         this.next=next;
     }
@@ -14,16 +14,16 @@ class ListNode {
 
 class MyLinkedList {
     int size;
-    ListNode head;
+    LinkedNode head;
 
     public MyLinkedList() {
         size =0;
-        head = new ListNode(0);
+        head = new LinkedNode(0);
     }
     //所有index都是从0开始的，要注意
     public int get(int index) {
         if(index<0||index>=size) return -1;
-        ListNode currentNode = head;
+        LinkedNode currentNode = head;
         for(int i=0;i<=index;i++){
             currentNode=currentNode.next;
         }
@@ -44,8 +44,8 @@ class MyLinkedList {
             index=0;
         }
         size++;
-        ListNode node3 = new ListNode(val);
-        ListNode cur = head;
+        LinkedNode node3 = new LinkedNode(val);
+        LinkedNode cur = head;
         for(int i=0;i<index;i++){
             cur=cur.next;
         }
@@ -56,7 +56,7 @@ class MyLinkedList {
     public void deleteAtIndex(int index) {
         if(index<0||index>=size) return;
         size--;
-        ListNode p = head;
+        LinkedNode p = head;
         for(int i =0;i<index;i++){
             p=p.next;
 

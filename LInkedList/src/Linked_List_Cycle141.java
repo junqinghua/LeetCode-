@@ -1,7 +1,7 @@
 public class Linked_List_Cycle141 {
-    public boolean hasCycle(ListNode head) {
+    public boolean hasCycle(LinkedNode head) {
 //解法1  哈希表特性 遍历整个链表，将遍历到的加入set，如果遇到重复的则返回true。
-        Set<ListNode> ls = new HashSet<>();
+        Set<LinkedNode> ls = new HashSet<>();
         if (head == null) return false;
 
         while (head != null && head.next != null) {
@@ -15,8 +15,8 @@ public class Linked_List_Cycle141 {
 
     //解法2  快慢指针 指针在链表中游走， 若相遇（相等）则说明该链表为环形链表
      if(head ==null)return false;
-    ListNode slow = head;
-    ListNode fast = head;
+    LinkedNode slow = head;
+    LinkedNode fast = head;
 
     while(fast!=null&&fast.next!=null)
 

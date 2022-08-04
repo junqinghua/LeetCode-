@@ -1,9 +1,9 @@
 public class Merge_Two_Sorted_Lists21 {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public LinkedNode mergeTwoLists(LinkedNode list1, LinkedNode list2) {
        //虚拟头节点，完美解决需要移动头部节点的问题
-        ListNode dummy = new ListNode(-1); ListNode p = dummy;
-        ListNode p1 = list1;
-        ListNode p2 = list2;
+        LinkedNode dummy = new LinkedNode(-1); LinkedNode p = dummy;
+        LinkedNode p1 = list1;
+        LinkedNode p2 = list2;
         while(p1!=null&&p2!=null){
             if(p1.val>p2.val){
                 p.next=p2;

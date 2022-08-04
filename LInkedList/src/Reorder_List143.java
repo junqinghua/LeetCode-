@@ -9,19 +9,19 @@ public class Reorder_List143 {
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-        public void reorderList(ListNode head) {
+        public void reorderList(LinkedNode head) {
             if(head==null) return;
             //先找到中点，参考876
-            ListNode slow = head;
-            ListNode fast = head;
+            LinkedNode slow = head;
+            LinkedNode fast = head;
             while(fast!=null&&fast.next!=null){
                 slow = slow.next;
                 fast = fast.next.next;
             }
             //接着反转链表 参考206
-            ListNode prev = null;
-            ListNode cur =  slow;
-            ListNode temp = null;
+            LinkedNode prev = null;
+            LinkedNode cur =  slow;
+            LinkedNode temp = null;
             while(cur!=null){
                 temp = cur.next;
                 cur.next =prev;
@@ -29,8 +29,8 @@ public class Reorder_List143 {
                 cur=temp;
             }
             //最后合并两个链表
-            ListNode first = head;
-            ListNode second =prev;
+            LinkedNode first = head;
+            LinkedNode second =prev;
             while(second.next!=null){
                 temp =first.next;
                 first.next=second;

@@ -9,11 +9,11 @@ public class Remove_Linked_List_Elements203 {
      *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
-        public ListNode removeElements(ListNode head, int val) {
+        public LinkedNode removeElements(LinkedNode head, int val) {
            //迭代
-            ListNode dummy = new ListNode(-1);
+            LinkedNode dummy = new LinkedNode(-1);
             dummy.next=head;
-            ListNode p =dummy;
+            LinkedNode p =dummy;
             while(p.next!=null){
                 if(p.next.val==val){
                     p.next=p.next.next;
