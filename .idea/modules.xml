@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/LInkedList/LInkedList.iml" filepath="$PROJECT_DIR$/LInkedList/LInkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode-.iml" filepath="$PROJECT_DIR$/.idea/LeetCode-.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack&amp;Queue/Stack&amp;Queue.iml" filepath="$PROJECT_DIR$/Stack&amp;Queue/Stack&amp;Queue.iml" />
     </modules>
   </component>
 </project>
