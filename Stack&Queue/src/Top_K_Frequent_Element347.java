@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.PriorityQueue;
+
 public class Top_K_Frequent_Element347 {
     public int[] topKFrequent(int[] nums, int k) {
         //map用来统计每个int出现的次数
