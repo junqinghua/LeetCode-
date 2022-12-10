@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Find_All_Anagrams_in_a_String438 {
 
 //滑动窗口经典思路模版

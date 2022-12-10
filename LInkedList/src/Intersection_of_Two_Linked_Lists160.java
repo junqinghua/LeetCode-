@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Intersection_of_Two_Linked_Lists160 {
     public LinkedNode getIntersectionNode(LinkedNode headA, LinkedNode headB) {
         //经典hashset判断一个相交（重复，一样）的点

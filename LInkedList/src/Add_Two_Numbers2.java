@@ -1,4 +1,4 @@
-public class Add_Two_Numbers2 {
+public class LAdd_Two_Numbers2 {
     /**
      * Definition for singly-linked list.
      * public class ListNode {

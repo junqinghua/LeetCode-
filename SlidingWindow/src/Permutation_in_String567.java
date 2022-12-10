@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Permutation_in_String567 {
     public boolean checkInclusion(String s1, String s2) {
-
+//超时！！！需要更改
         int len1 = s1.length();
         int len2 = s2.length();
         if (len1 > len2) return false;

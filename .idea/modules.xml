@@ -3,12 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" filepath="$PROJECT_DIR$/DynamicProgramming/DynamicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy/Greedy.iml" filepath="$PROJECT_DIR$/Greedy/Greedy.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/LInkedList/LInkedList.iml" filepath="$PROJECT_DIR$/LInkedList/LInkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode-.iml" filepath="$PROJECT_DIR$/.idea/LeetCode-.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack&amp;Queue/Stack&amp;Queue.iml" filepath="$PROJECT_DIR$/Stack&amp;Queue/Stack&amp;Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
